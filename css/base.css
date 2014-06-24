@@ -1,0 +1,6 @@
+header {
+	background: url('../images/header_bg.jpg') no-repeat;
+	background-size: cover;
+	height: 800px;
+	clear: both;
+}
