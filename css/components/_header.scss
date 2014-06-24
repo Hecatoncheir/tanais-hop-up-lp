@@ -1,0 +1,29 @@
+header {
+  background: url('../images/header_bg.jpg') no-repeat;
+  background-size: cover;
+  border-top: 2px solid #f9a91d;
+  width: 100%;
+  height: 800px;
+  max-height: 800px;
+  clear: both;
+  display: block;
+}
+
+.logo {
+  background: url('../images/logo.png') no-repeat left top;
+  background-size: contain;
+  width: 14.23%;
+  height: 113px;
+  margin: 34px 0 0 10px;
+  display: block;
+  float: left;
+}
+
+.contacts {
+  margin-top: 40px;
+  float: right;
+  color: #fdd96e;
+  text-align: right;
+  font-family: pfAgoraMedium;
+  font-size: 30px / 16px * 100%;
+}
