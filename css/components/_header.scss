@@ -7,23 +7,105 @@ header {
   max-height: 800px;
   clear: both;
   display: block;
-}
 
-.logo {
-  background: url('../images/logo.png') no-repeat left top;
-  background-size: contain;
-  width: 14.23%;
-  height: 113px;
-  margin: 34px 0 0 10px;
-  display: block;
-  float: left;
-}
 
-.contacts {
-  margin-top: 40px;
-  float: right;
-  color: #fdd96e;
-  text-align: right;
-  font-family: pfAgoraMedium;
-  font-size: 30px / 16px * 100%;
+  .logo {
+    background: url('../images/logo.png') no-repeat left top;
+    background-size: contain;
+    width: 14.23%;
+    height: 113px;
+    margin: 34px 0 0 10px;
+    display: block;
+    float: left;
+  }
+
+  .contacts {
+    margin-top: 40px;
+    float: right;
+    color: #fdd96e;
+    text-align: right;
+    font-family: pfAgoraMedium;
+    font-size: 30px / 16px * 100%;
+  }
+
+  h1 {
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    width: 490px / 1520px * 100%;
+    color:#8c2804;
+    text-transform: uppercase;
+    font-size: 36px / 30px * 100%;
+    font-family: cuprum;
+
+    .devider {
+      background: url("../images/devider.png") repeat-x center;
+      width: 260px / 490px * 100%;
+      margin: 0 auto;
+      display: block;
+      height: 20px;
+    }
+
+    span {
+      color: #fff;
+      font-size: 53px / 30px * 100%;
+    }
+
+  }
+
+  .form {
+    float: left;
+    display: block;
+    width:633px / 1520px * 100%;
+
+      .arrow {
+        background: url("../images/arrow.png") no-repeat;
+        display: block;
+        margin-top: 40px;
+        float: left;
+        width: 73px;
+        height: 88px;
+      }
+
+      p {
+        font-family: cuprum;
+        text-transform: uppercase;
+        color:#fff;
+        font-size: 53px / 30px * 100%;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 30px;
+      }
+
+      form {
+        background: #fff;
+        border-radius: 3px;
+        margin-top: -12px;
+        display: block;
+        float: right;
+        width: 80%;
+
+        header {
+          background: #f2ab27;
+          border-radius: 3px 3px 0px 0px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-family: osb;
+          padding: 8px 0;
+          color: #fff;
+          text-align: center;
+          border: none;
+          height: auto;
+          width: 100%;
+          display: block;
+        }
+
+        div {
+          padding: 22px;
+        }
+
+      }
+
+  } //form
+
 }
