@@ -1,8 +1,10 @@
 @import "components/header";
 @import "components/fonts";
 
+.clear{clear:both;}
+
 .sec {
-  width: 95%;
+  width: 95%; //1520px
   display: block;
   margin: 0 auto;
 }
@@ -10,8 +12,8 @@
 .sendBtn {
   font-family: osb;
   font-size: 18px / 30px * 100%;
-  background: #f2ab27;
-  border-bottom: 2px solid #bf610f;
+  background: #f2ab27 !important;
+  border-bottom: 2px solid #bf610f !important;
   padding: 9px 7px;
   text-align: center;
   color:#fff;
