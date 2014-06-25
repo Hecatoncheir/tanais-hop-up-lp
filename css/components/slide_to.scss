@@ -1,0 +1,33 @@
+
+#slide_to {
+  clear:both;
+  color: #fff;
+  width: 357px / 1520px * 100%;
+  margin: 0 auto !important;
+  margin-top:20px;
+  padding: 2px 5px;
+  padding-top:5px;
+  text-align:center;
+  display:block;
+  height:34px;
+  text-decoration:none;
+  font-size: 37px / 30px * 100%;
+
+  border: 3px solid #f1ab27; /* stroke */
+-moz-border-radius: 37px / 36px 36px 37px 37px;
+-webkit-border-radius: 37px / 36px 36px 37px 37px;
+border-radius: 37px / 36px 36px 37px 37px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #fff; /* layer fill content */
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), inset 0 0 4px rgba(255,255,255,.2); /* inner shadow and inner glow */
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), inset 0 0 4px rgba(255,255,255,.2); /* inner shadow and inner glow */
+box-shadow: inset 0 1px 0 rgba(255,255,255,.2), inset 0 0 4px rgba(255,255,255,.2); /* inner shadow and inner glow */
+background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M1NmYxMyIgc3RvcC1vcGFjaXR5PSIwLjgxIi8+CjxzdG9wIG9mZnNldD0iOTklIiBzdG9wLWNvbG9yPSIjZjFhYjI3IiBzdG9wLW9wYWNpdHk9IjAuODEiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjFhYjI3IiBzdG9wLW9wYWNpdHk9IjAuODEiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=); /* gradient overlay */
+background-image: -moz-linear-gradient(bottom, rgba(198,112,20,.81) 0%, rgba(242,171,39,.81) 99.07%, rgba(242,171,39,.81) 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, rgba(198,112,20,.81) 0%, rgba(242,171,39,.81) 99.07%, rgba(242,171,39,.81) 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, rgba(198,112,20,.81) 0%, rgba(242,171,39,.81) 99.07%, rgba(242,171,39,.81) 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, rgba(198,112,20,.81) 0%, rgba(242,171,39,.81) 99.07%, rgba(242,171,39,.81) 100%); /* gradient overlay */
+
+}

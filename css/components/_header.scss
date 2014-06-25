@@ -141,4 +141,60 @@ header {
 
   } //form
 
+
+  #promo_nav {
+    float: right;
+    display: block;
+    margin-top:65px / 805px * 100%;
+    width: 716px / 1520px * 100%;
+    height:auto;
+    // min-height: 388px;
+    // background:url("../images/promo_nav_bg.png") no-repeat;
+    // background-size:contain;
+    position:relative;
+    text-transform:uppercase;
+    font-family:cuprum;
+    font-weight:normal;
+    letter-spacing:2px;
+
+    img {
+      width:70%;
+    }
+
+      a {color: #fff; text-decoration:none;}
+
+// Icons
+    .p_android {
+        position:absolute;
+        left:-2%;
+        top:30px / 388px * 100%;
+        font-size:34px / 30px * 100%;
+
+        .p_icon {
+          float: right;
+          margin-top: -20px;
+        }
+    }
+
+    .p_wp {
+        position:absolute;
+        right:4%;
+        top:120px / 388px * 100%;
+    }
+
+  .p_apple {
+    position:absolute;
+    bottom:30px / 390px * 100%;
+    left:-2%;
+    font-size: 34px / 30px * 100%;
+
+    .p_icon{
+        float: right;
+        margin-top:-20px;
+    }
+
+  }
+
+  }
+
 }

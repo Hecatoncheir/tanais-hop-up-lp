@@ -1,0 +1,38 @@
+@media screen and (max-width:1000px){
+  #promo_nav {
+    display:none !important;
+  }
+
+  .form {
+      float: left;
+      margin: 0px;
+      clear: both;
+      width:100% !important;
+
+      form {
+        width:100% !important;
+      }
+  }
+
+
+  .arrow {display: none !important;}
+
+}
+
+
+
+@media screen and (max-width:1365px) {
+  .p_wp {
+      right:6% !important;
+  }
+}
+
+
+
+@media screen and (min-width:1366px) {
+  #promo_nav{
+    .p_wp {
+        right:8% !important;
+    }
+  }
+}

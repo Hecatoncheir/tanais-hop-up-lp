@@ -106,6 +106,42 @@ header {
         font-size: 106.66667% !important;
         font-family: osb;
         width: 78.34862% !important; }
+  header #promo_nav {
+    float: right;
+    display: block;
+    margin-top: 8.07453%;
+    width: 47.10526%;
+    height: auto;
+    position: relative;
+    text-transform: uppercase;
+    font-family: cuprum;
+    font-weight: normal;
+    letter-spacing: 2px; }
+    header #promo_nav img {
+      width: 70%; }
+    header #promo_nav a {
+      color: #fff;
+      text-decoration: none; }
+    header #promo_nav .p_android {
+      position: absolute;
+      left: -2%;
+      top: 7.73196%;
+      font-size: 113.33333%; }
+      header #promo_nav .p_android .p_icon {
+        float: right;
+        margin-top: -20px; }
+    header #promo_nav .p_wp {
+      position: absolute;
+      right: 4%;
+      top: 30.92784%; }
+    header #promo_nav .p_apple {
+      position: absolute;
+      bottom: 7.69231%;
+      left: -2%;
+      font-size: 113.33333%; }
+      header #promo_nav .p_apple .p_icon {
+        float: right;
+        margin-top: -20px; }
 
 @font-face {
   font-family: "pfAgoraMedium";
@@ -125,6 +161,84 @@ header {
   src: url("../fonts/cuprum/cuprum-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cuprum/cuprum-regular-webfont.woff") format("woff"), url("../fonts/cuprum/cuprum-regular-webfont.ttf") format("truetype"), url("../fonts/cuprum/cuprum-regular-webfont.svg#cuprumregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+#slide_to {
+  clear: both;
+  color: #fff;
+  width: 23.48684%;
+  margin: 0 auto !important;
+  margin-top: 20px;
+  padding: 2px 5px;
+  padding-top: 5px;
+  text-align: center;
+  display: block;
+  height: 34px;
+  text-decoration: none;
+  font-size: 123.33333%;
+  border: 3px solid #f1ab27;
+  /* stroke */
+  -moz-border-radius: 37px / 36px 36px 37px 37px;
+  -webkit-border-radius: 37px / 36px 36px 37px 37px;
+  border-radius: 37px / 36px 36px 37px 37px;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: #fff;
+  /* layer fill content */
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 0 4px rgba(255, 255, 255, 0.2);
+  /* inner shadow and inner glow */
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 0 4px rgba(255, 255, 255, 0.2);
+  /* inner shadow and inner glow */
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 0 4px rgba(255, 255, 255, 0.2);
+  /* inner shadow and inner glow */
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M1NmYxMyIgc3RvcC1vcGFjaXR5PSIwLjgxIi8+CjxzdG9wIG9mZnNldD0iOTklIiBzdG9wLWNvbG9yPSIjZjFhYjI3IiBzdG9wLW9wYWNpdHk9IjAuODEiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjFhYjI3IiBzdG9wLW9wYWNpdHk9IjAuODEiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
+  /* gradient overlay */
+  background-image: -moz-linear-gradient(bottom, rgba(198, 112, 20, 0.81) 0%, rgba(242, 171, 39, 0.81) 99.07%, rgba(242, 171, 39, 0.81) 100%);
+  /* gradient overlay */
+  background-image: -o-linear-gradient(bottom, rgba(198, 112, 20, 0.81) 0%, rgba(242, 171, 39, 0.81) 99.07%, rgba(242, 171, 39, 0.81) 100%);
+  /* gradient overlay */
+  background-image: -webkit-linear-gradient(bottom, rgba(198, 112, 20, 0.81) 0%, rgba(242, 171, 39, 0.81) 99.07%, rgba(242, 171, 39, 0.81) 100%);
+  /* gradient overlay */
+  background-image: linear-gradient(bottom, rgba(198, 112, 20, 0.81) 0%, rgba(242, 171, 39, 0.81) 99.07%, rgba(242, 171, 39, 0.81) 100%);
+  /* gradient overlay */ }
+
+.p_icon {
+  background: url("../images/p_icons.png") no-repeat;
+  width: 60px;
+  height: 60px;
+  display: block;
+  float: left; }
+
+.i_anddroid {
+  background-position: left; }
+
+.i_wp {
+  background-position: center; }
+
+.i_apple {
+  background-position: right; }
+
+@media screen and (max-width: 1000px) {
+  #promo_nav {
+    display: none !important; }
+
+  .form {
+    float: left;
+    margin: 0px;
+    clear: both;
+    width: 100% !important; }
+    .form form {
+      width: 100% !important; }
+
+  .arrow {
+    display: none !important; } }
+@media screen and (max-width: 1365px) {
+  .p_wp {
+    right: 6% !important; } }
+@media screen and (min-width: 1366px) {
+  #promo_nav .p_wp {
+    right: 8% !important; } }
 .clear {
   clear: both; }
 
