@@ -22,7 +22,7 @@ header {
   border-top: 2px solid #f9a91d;
   width: 100%;
   height: auto;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   clear: both;
   display: block; }
   header .logo {
@@ -212,6 +212,30 @@ header {
   .section_2 .clear {
     padding-top: 11.66667%; }
 
+.section_3 {
+  width: 100%;
+  border-top: 22px solid #bf610f;
+  border-bottom: 4px solid #f2ab27; }
+  .section_3 .p_icons {
+    float: left; }
+    .section_3 .p_icons a {
+      background: url("../images/p_icons_bg.png") no-repeat;
+      background-size: contain;
+      display: block;
+      width: 5.92105% !important;
+      height: auto;
+      position: static !important;
+      float: left; }
+      .section_3 .p_icons a img {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -100%; }
+  .section_3 .video {
+    background: url("../images/video_bg.png") no-repeat;
+    background-size: contain;
+    width: 53.94737%;
+    height: 474px; }
+
 #slide_to {
   clear: both;
   color: #fff;
@@ -269,7 +293,7 @@ header {
   display: block;
   float: left; }
 
-.i_anddroid {
+.i_android {
   background-position: left; }
 
 .i_wp {
@@ -300,6 +324,9 @@ header {
 @media screen and (min-width: 1366px) {
   #promo_nav .p_wp {
     right: 8% !important; } }
+section {
+  clear: both; }
+
 .clear {
   clear: both; }
 

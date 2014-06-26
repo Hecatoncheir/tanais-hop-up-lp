@@ -1,0 +1,33 @@
+.section_3 {
+  width: 100%;
+  border-top: 22px solid #bf610f;
+  border-bottom: 4px solid #f2ab27;
+
+  .p_icons {
+    float: left;
+    a {
+      background: url("../images/p_icons_bg.png") no-repeat;
+      background-size: contain;
+      display: block;
+      width: (90/1520) * 100% !important;
+      height: auto;
+      position: static !important;
+      float: left;
+
+      img {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -(90/90)*100%;
+      }
+    }
+  }
+
+  .video {
+    background: url("../images/video_bg.png") no-repeat;
+    background-size: contain;
+    width: (820/1520)*100%;
+    height: 474px;
+  }
+
+
+}
