@@ -1,1 +1,1 @@
-
+$("#slide_to").fitText(1.3);

@@ -1,10 +1,28 @@
+@font-face {
+  font-family: "pfAgoraMedium";
+  src: url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.eot");
+  src: url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.woff") format("woff"), url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.ttf") format("truetype"), url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.svg#pf_agora_sans_promedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'osb';
+  src: url("../fonts/sansBold/jno4hogh-webfont.eot");
+  src: url("../fonts/sansBold/jno4hogh-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sansBold/jno4hogh-webfont.woff") format("woff"), url("../fonts/sansBold/jno4hogh-webfont.ttf") format("truetype"), url("../fonts/sansBold/jno4hogh-webfont.svg#open_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: '../fonts/cuprum/cuprum';
+  src: url("../fonts/cuprum/cuprum-regular-webfont.eot");
+  src: url("../fonts/cuprum/cuprum-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cuprum/cuprum-regular-webfont.woff") format("woff"), url("../fonts/cuprum/cuprum-regular-webfont.ttf") format("truetype"), url("../fonts/cuprum/cuprum-regular-webfont.svg#cuprumregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 header {
   background: url("../images/header_bg.jpg") no-repeat;
   background-size: cover;
   border-top: 2px solid #f9a91d;
   width: 100%;
   height: auto;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   clear: both;
   display: block; }
   header .logo {
@@ -143,30 +161,61 @@ header {
         float: right;
         margin-top: -20px; }
 
-@font-face {
-  font-family: "pfAgoraMedium";
-  src: url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.eot");
-  src: url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.woff") format("woff"), url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.ttf") format("truetype"), url("../fonts/pfAgoraMedium/pfagorasanspro-medium-webfont.svg#pf_agora_sans_promedium") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'osb';
-  src: url("../fonts/sansBold/jno4hogh-webfont.eot");
-  src: url("../fonts/sansBold/jno4hogh-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sansBold/jno4hogh-webfont.woff") format("woff"), url("../fonts/sansBold/jno4hogh-webfont.ttf") format("truetype"), url("../fonts/sansBold/jno4hogh-webfont.svg#open_sansbold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: '../fonts/cuprum/cuprum';
-  src: url("../fonts/cuprum/cuprum-regular-webfont.eot");
-  src: url("../fonts/cuprum/cuprum-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cuprum/cuprum-regular-webfont.woff") format("woff"), url("../fonts/cuprum/cuprum-regular-webfont.ttf") format("truetype"), url("../fonts/cuprum/cuprum-regular-webfont.svg#cuprumregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+.section_2 {
+  border-bottom: 4px solid #f2ab27;
+  position: relative; }
+  .section_2 hgroup {
+    width: 31.64474%;
+    margin-left: 8.02632%;
+    margin-bottom: -20px; }
+  .section_2 h3 {
+    font-size: 1.5em;
+    font-family: cuprum;
+    color: #bf610f;
+    line-height: 30px; }
+    .section_2 h3 span {
+      text-transform: uppercase; }
+    .section_2 h3 span:last-child {
+      color: #a8cb30;
+      border-top: 2px solid #f2ab27; }
+  .section_2 ul {
+    width: 56.05263%;
+    margin-left: 6.57895%;
+    font-family: cuprum;
+    color: #8c2804;
+    float: left;
+    font-size: 1.375em;
+    position: relative;
+    z-index: 2; }
+    .section_2 ul li {
+      position: relative;
+      list-style: none; }
+      .section_2 ul li span {
+        color: #a8cb30;
+        text-transform: uppercase;
+        font-size: 1em; }
+    .section_2 ul li:before {
+      content: "-";
+      position: absolute;
+      left: -15px; }
+  .section_2 .tabs {
+    width: 41.11842%;
+    display: block;
+    position: absolute;
+    right: 54px;
+    top: 70px;
+    z-index: 1; }
+    .section_2 .tabs img {
+      width: 100%; }
+  .section_2 .clear {
+    padding-top: 11.66667%; }
+
 #slide_to {
   clear: both;
   color: #fff;
   width: 23.48684%;
-  margin: 0 auto !important;
-  margin-top: 20px;
+  margin: 0 auto;
+  margin-top: -20px;
   padding: 2px 5px;
   padding-top: 5px;
   text-align: center;
