@@ -11,7 +11,13 @@
 
       form {
         width:100% !important;
+
+        .sendBtn {
+          width: 414px / 545px * 100% !important;
+        }
       }
+
+      
   }
 
 

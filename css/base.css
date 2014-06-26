@@ -123,7 +123,7 @@ header {
       header .form form .sendBtn {
         font-size: 106.66667% !important;
         font-family: osb;
-        width: 78.34862% !important; }
+        width: 78.34862%; }
   header #promo_nav {
     float: right;
     display: block;
@@ -260,7 +260,7 @@ header {
     width: 3.92157%;
     height: 60%;
     float: right;
-    margin: 14.70588% 4.20168% 0 0; }
+    margin: 2.94118% 4.20168% 0 0; }
 
 .p_icon {
   background: url("../images/p_icons.png") no-repeat;
@@ -289,6 +289,8 @@ header {
     width: 100% !important; }
     .form form {
       width: 100% !important; }
+      .form form .sendBtn {
+        width: 75.9633% !important; }
 
   .arrow {
     display: none !important; } }
