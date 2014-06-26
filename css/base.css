@@ -151,7 +151,9 @@ header {
     header #promo_nav .p_wp {
       position: absolute;
       right: 4%;
-      top: 30.92784%; }
+      top: 36.08247%; }
+      header #promo_nav .p_wp .p_icon {
+        margin-top: -20px; }
     header #promo_nav .p_apple {
       position: absolute;
       bottom: 7.69231%;
