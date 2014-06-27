@@ -1,4 +1,4 @@
-@media screen and (max-width:1000px){
+@media (max-width:1000px){
   #promo_nav {
     display:none !important;
   }
@@ -23,14 +23,32 @@
 
   .arrow {display: none !important;}
 
+  .store_download {
+    margin: 0 auto;
+    margin-right: (110/1520)*100% !important;
+    a {
+      float: left !important;
+      background-position: center center !important;
+      clear: both;
+      margin-bottom: 10px;
+      width: 100% !important;
+    }
+  }
+
 }
 
 
 
-@media screen and (max-width:1365px) {
+@media (max-width:1365px) {
   .p_wp {
       right:6% !important;
   }
+
+  .section_3 .p_icons img {margin-top: -50px !important;}
+
+
+
+
 }
 
 
