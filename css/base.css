@@ -375,6 +375,14 @@ header {
     font-style: italic;
     text-transform: uppercase; }
 
+.section_5 {
+  clear: both;
+  background: #f2ab27;
+  margin: 0;
+  padding: 0; }
+  .section_5 h3 {
+    line-height: none; }
+
 #slide_to {
   clear: both;
   color: #fff;
