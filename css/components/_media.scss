@@ -17,7 +17,7 @@
         }
       }
 
-      
+
   }
 
 
@@ -47,8 +47,6 @@
   .section_3 .p_icons img {margin-top: -50px !important;}
 
 
-
-
 }
 
 
@@ -59,4 +57,90 @@
         right:8% !important;
     }
   }
+}
+
+
+@media screen and (max-width: 660px) {
+  header {
+    .logo {
+      width: 90%;
+    }
+    h1 span:last-child {margin-left: -20px;}
+
+    .contacts {
+      .sendBtn {
+        margin-bottom: 20px;
+        margin-right:-5px;
+      }
+    }
+
+    .form {
+      form {
+        .sendBtn {
+          width: 100% !important;
+        }
+      }
+    }
+
+  }
+
+  .section_2 {
+    .sec {
+      #slide_to {
+        display: none;
+        width: 120%;
+      }
+      .tabs {display:none;}
+
+      hgroup {width:80%;}
+
+      ul {
+        width: 80%;
+        li {width:100%;}
+      }
+    }
+  }
+
+
+  .section_3 {
+    .p_icons {display:none;}
+    .video {
+      width: 100%;
+      float: none;
+      display:none;
+      // a {
+      //   width:100%;
+      //   margin-left: (300/820) * 100%;
+      //   margin-top: 25px;
+      // }
+    }
+    .downloads {
+      float: none;
+      width: 100%;
+    }
+
+    .store_download {
+      width: 100%;
+      a {
+        width: 100% !important;
+      }
+    }
+
+  }
+
+  .section_4 {
+    .price_table {
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+      float: none;
+    }
+    .offer {
+      width: 100%;
+      margin: o auto;
+      margin-top: 20px;
+      float: none;
+    }
+  }
+
 }

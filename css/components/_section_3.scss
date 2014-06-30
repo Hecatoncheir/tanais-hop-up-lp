@@ -31,15 +31,19 @@
     margin: 36px 0 0 0;
     padding-top: 10%;
     float: left;
+    position: relative;
 
     a {
+      position: absolute;
       display: block;
       background: url("../images/video_arrow.png") no-repeat;
       background-size: contain;
       width:(143/820)*100%;
-      height: 176px;
+      height: (176/364) * 100%;
 //      height: auto;
-      margin: 0 auto;
+      // margin: 0 auto;
+      left: (54/143)*100%;
+      top: 100px;
     }
   }
 
@@ -80,7 +84,7 @@
     width: (560/1520)*100%;
 
     a {
-      background:url('../images/download_apple_store_bg.png') no-repeat;
+      background: url('../images/download_apple_store_bg.png') no-repeat;
       background-size: contain;
       width: (230/560)*100%;
       background-position: center center;
@@ -92,7 +96,7 @@
     }
     a:last-child {
       float: right;
-      background: url("../images/download_and_store_bg.png") no-repeat;
+      background: url('../images/download_and_store_bg.png') no-repeat;
       background-size: contain;
       background-position: left center;
     }
