@@ -303,7 +303,7 @@ header {
 .section_4 {
   background: #bf610f;
   padding-top: 40px;
-  padding-bottom: 16px;
+  padding-bottom: 66px;
   font-family: cuprum; }
   .section_4 h2 {
     text-transform: uppercase;
@@ -312,7 +312,8 @@ header {
     width: 100%;
     text-align: center;
     color: #fff;
-    margin-bottom: 40px; }
+    margin-bottom: 80px;
+    margin-top: 20px; }
   .section_4 .price_table {
     float: left;
     width: 41.84211%;
@@ -366,7 +367,7 @@ header {
       padding: 2px 8px; }
   .section_4 .last-chance {
     clear: both;
-    padding-top: 60px;
+    padding-top: 80px;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -379,9 +380,48 @@ header {
   clear: both;
   background: #f2ab27;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin-top: -20px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-family: cuprum;
+  text-transform: uppercase; }
   .section_5 h3 {
-    line-height: none; }
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: none;
+    font-size: 3.125em; }
+    .section_5 h3 span {
+      padding: 2px 6px;
+      background: #bf610f; }
+  .section_5 article {
+    float: left;
+    width: 47.36842%;
+    margin: 10px;
+    font-size: 1.875em;
+    color: #fff;
+    padding-top: 20px;
+    line-height: 36px;
+    font-weight: lighter; }
+    .section_5 article div {
+      background: url("../images/article_icons.png") no-repeat;
+      display: block;
+      float: left;
+      width: 150px;
+      height: 150px;
+      margin-top: -20px; }
+    .section_5 article .article_icon_2 {
+      background-position: -150px 0; }
+    .section_5 article .article_icon_3 {
+      background-position: -300px 0; }
+    .section_5 article .article_icon_4 {
+      background-position: -450px 0; }
+    .section_5 article .article_icon_5 {
+      background-position: -600px 0; }
+    .section_5 article .article_icon_6 {
+      background-position: -750px 0; }
 
 #slide_to {
   clear: both;

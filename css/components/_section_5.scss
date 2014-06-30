@@ -3,9 +3,53 @@
   background: #f2ab27;
   margin:0;
   padding:0;
+  margin-top: -20px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-family: cuprum;
+  text-transform: uppercase;
 
   h3 {
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
     line-height: none;
+    font-size: em(50);
+
+
+    span {
+      padding: 2px 6px;
+      background: #bf610f;
+    }
+  }
+
+
+  article {
+    float: left;
+    width: (720 / 1520) * 100%;
+    margin: 10px;
+    font-size: em(30);
+    color: #fff;
+    padding-top: 20px;
+    line-height: 36px;
+    font-weight: lighter;
+
+    div {
+      background: url("../images/article_icons.png") no-repeat;
+      display: block;
+      float: left;
+      width: 150px;
+      height: 150px;
+      margin-top: -20px;
+    }
+
+    .article_icon_2 {background-position: -150px 0;}
+    .article_icon_3 {background-position: -300px 0;}
+    .article_icon_4 {background-position: -450px 0;}
+    .article_icon_5 {background-position: -600px 0;}
+    .article_icon_6 {background-position: -750px 0;}
+
   }
 
 }
