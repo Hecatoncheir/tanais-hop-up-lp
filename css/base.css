@@ -426,6 +426,17 @@ header {
     .section_5 article .article_icon_6 {
       background-position: -750px 0; }
 
+.section_6 {
+  clear: both;
+  background: #fff;
+  border-top: 12px solid #c56a12; }
+  .section_6 h3 {
+    color: #c16617;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cuprum, sans-serif;
+    font-size: 3.625em; }
+
 #slide_to {
   clear: both;
   color: #fff;
