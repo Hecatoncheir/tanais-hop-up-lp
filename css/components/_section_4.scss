@@ -1,7 +1,7 @@
 .section_4 {
   background: #bf610f;
   padding-top: 40px;
-  padding-bottom: 116px;
+  padding-bottom: 16px;
   font-family: cuprum;
 
   h2 {
@@ -67,7 +67,29 @@
     text-align: center;
     font-size: em(30);
     display: block;
+    margin-top: -20px;
     float: right;
+    text-transform: uppercase;
+    line-height: 36px;
+    color: #f2d22e;
+    span {color: #fff}
+    span:last-child {
+      background:#fff;
+      color: #c56a12;
+      padding: 2px 8px;
+    }
+  }
+
+  .last-chance {
+    clear: both;
+    padding-top: 60px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: pfAgoraMedium;
+    font-size: em(31);
+    font-style: italic;
+    text-transform: uppercase;
   }
 
 }

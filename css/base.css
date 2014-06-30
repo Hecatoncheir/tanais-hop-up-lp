@@ -303,7 +303,7 @@ header {
 .section_4 {
   background: #bf610f;
   padding-top: 40px;
-  padding-bottom: 116px;
+  padding-bottom: 16px;
   font-family: cuprum; }
   .section_4 h2 {
     text-transform: uppercase;
@@ -353,7 +353,27 @@ header {
     text-align: center;
     font-size: 1.875em;
     display: block;
-    float: right; }
+    margin-top: -20px;
+    float: right;
+    text-transform: uppercase;
+    line-height: 36px;
+    color: #f2d22e; }
+    .section_4 .offer span {
+      color: #fff; }
+    .section_4 .offer span:last-child {
+      background: #fff;
+      color: #c56a12;
+      padding: 2px 8px; }
+  .section_4 .last-chance {
+    clear: both;
+    padding-top: 60px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: pfAgoraMedium;
+    font-size: 1.9375em;
+    font-style: italic;
+    text-transform: uppercase; }
 
 #slide_to {
   clear: both;
