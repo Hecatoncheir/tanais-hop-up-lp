@@ -573,7 +573,14 @@ header {
     width: 100%;
     margin: o auto;
     margin-top: 20px;
-    float: none; } }
+    float: none; }
+
+  .section_5 article div {
+    display: none; }
+  .section_5 article {
+    width: 100%; }
+  .section_5 article:before {
+    content: "-"; } }
 section {
   clear: both; }
 

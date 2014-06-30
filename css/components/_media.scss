@@ -143,4 +143,11 @@
     }
   }
 
+  .section_5 {
+    article div {display:none;}
+    article {
+      width: 100%;}
+      article:before {content:"-"}
+  }
+
 }
