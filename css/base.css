@@ -493,7 +493,7 @@ header {
       color: #bf610f; }
   .section_6 .info_text {
     float: left;
-    width: 44.73684%;
+    width: 44.73684% !important;
     text-align: center;
     font-family: pfAgoraMedium;
     text-transform: uppercase; }
@@ -604,7 +604,10 @@ header {
       background-position: center center !important;
       clear: both;
       margin-bottom: 10px;
-      width: 100% !important; } }
+      width: 100% !important; }
+
+  .section_6 .info_text {
+    width: 100% !important; } }
 @media (max-width: 1365px) {
   .p_wp {
     right: 6% !important; }
@@ -667,7 +670,23 @@ header {
   .section_5 article {
     width: 100%; }
   .section_5 article:before {
-    content: "-"; } }
+    content: "-"; }
+
+  .section_6 h3 {
+    line-height: 70px; }
+  .section_6 .form {
+    padding-left: 2.7027%; }
+    .section_6 .form form .text_area textarea {
+      width: 90% !important;
+      margin-bottom: 60px; }
+    .section_6 .form form input {
+      margin-bottom: 10px; }
+    .section_6 .form form input[type="submit"] {
+      bottom: -80px;
+      left: 28.37838%; }
+  .section_6 .info_text {
+    width: 100% !important;
+    margin-top: 120px; } }
 section {
   clear: both; }
 

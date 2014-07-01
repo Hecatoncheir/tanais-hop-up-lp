@@ -88,7 +88,7 @@
 
   .info_text {
     float: left;
-    width: (680 / 1520) * 100%;
+    width: (680 / 1520) * 100% !important;
     text-align: center;
     font-family: pfAgoraMedium;
     text-transform: uppercase;
