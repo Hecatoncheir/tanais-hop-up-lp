@@ -10,6 +10,7 @@
 @import 'components/section_5';
 @import 'components/section_6';
 @import 'components/footer';
+@import "components/feedback";
 
 @import "components/slide_to";
 @import "components/icons";
@@ -35,5 +36,5 @@ section {clear: both;}
   color: #fff;
   margin-top: 10px;
   letter-spacing: normal;
-  cursor: pointer;
+//  cursor: pointer;
 }

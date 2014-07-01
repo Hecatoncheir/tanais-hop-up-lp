@@ -12,9 +12,8 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/base.css">
-
         <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/base.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -30,8 +29,22 @@
                 <div class="contacts">
                     +7 (499) 390-94-77
                     <div class="sendBtn">
-                        Заказать обратный звонок
+                        <a href="#fb_open_div" class="fb_open"> Заказать обратный звонок</a>
                     </div>
+                </div>
+
+                <!-- feedback open-->
+                <div id="fb_open_div">
+                    <h4>Заказать обратый звонок</h4>
+                    <div class="close_fb_open_div"></div>
+                    <form>
+                        <label>Имя:</label>
+                            <input type="text">
+                        <label>*Телефон:</label>
+                            <input type="text">
+                        <input type="submit">
+                    </form>
+                    <div class="clear"></div>
                 </div>
 
                 <h1>
@@ -72,9 +85,9 @@
             <div class="clear"></div>
         </header>
 
-        <section class="section_2">
+        <section class="section_2" id="cost">
             <div class="sec">
-                <a id="slide_to" href="#">О стоимости решения<i></i></a>
+                <a id="slide_to" href="#cost">О стоимости решения<i></i></a>
                 <hgroup>
                     <h3>
                         Что <span>HOPUP</span> для <span>directum</span> дает<br> <span>руководителю Организации</span>?

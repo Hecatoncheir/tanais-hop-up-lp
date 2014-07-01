@@ -50,6 +50,9 @@ header {
     text-align: right;
     font-family: pfAgoraMedium;
     font-size: 187.5%; }
+    header .contacts a {
+      text-decoration: none;
+      color: #fff; }
   header h1 {
     margin: 0 auto;
     clear: both;
@@ -562,6 +565,79 @@ footer {
     footer form :-ms-input-placeholder {
       color: #f2ab27; }
 
+#fb_open_div {
+  display: none;
+  position: relative;
+  background: #fff;
+  border: 6px solid #7f4106;
+  border-radius: 6px;
+  width: 630px;
+  font-family: cuprum;
+  text-transform: uppercase;
+  font-size: 1.875em; }
+  #fb_open_div h4 {
+    background: #9e550e;
+    color: #f2d22e;
+    font-size: 1.3em;
+    padding: 20px;
+    margin-top: 0px;
+    text-align: center;
+    position: relative; }
+  #fb_open_div form {
+    margin: 10px 20px; }
+    #fb_open_div form label {
+      clear: both;
+      float: left;
+      text-align: right;
+      margin-right: 10px;
+      color: #c56a12;
+      width: 140px;
+      padding-top: 5px; }
+    #fb_open_div form input {
+      outline: none;
+      border: none;
+      background: #c56a12;
+      color: #c56a12;
+      width: 376px;
+      float: left;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      padding: 3px 8px;
+      color: #fff; }
+    #fb_open_div form input[type="submit"] {
+      margin-right: 50px;
+      text-transform: uppercase;
+      font-family: cuprum;
+      float: right;
+      clear: both;
+      background: #9e550e;
+      width: auto;
+      padding: 5px 20px; }
+  #fb_open_div .close_fb_open_div {
+    display: block;
+    background: url("../images/close_fb_open_div.png") no-repeat;
+    background-size: cover;
+    width: 54px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    right: -60px;
+    cursor: pointer; }
+
+.fancybox-skin {
+  background-color: transparent !important; }
+
+.fancybox-inner {
+  overflow: visible !important; }
+
+.fancybox-skin, .fancybox-opened {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important; }
+
+.fancybox-close {
+  display: none; }
+
 #slide_to {
   clear: both;
   color: #fff;
@@ -764,5 +840,4 @@ section {
   text-align: center;
   color: #fff;
   margin-top: 10px;
-  letter-spacing: normal;
-  cursor: pointer; }
+  letter-spacing: normal; }
