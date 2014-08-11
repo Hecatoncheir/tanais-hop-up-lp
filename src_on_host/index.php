@@ -158,8 +158,15 @@
         <a name="cost" id="cost"></a>
               <div class="sec">
                     <h2>Стоимость решения</h2>
+
+                    <div class="offer">
+                      <p>
+                        <span>Установив</span> один раз <span>серверную часть</span> вы получаете возможность работы с DIRECTUM с любых мобильных устройств на платформах iOS, Android, Windows Phone.<br><span>Лицензия выдается на пользователя, т.е. если у одного пользователя</span> есть iPad <span>и</span> телефон на android, <span>то ему</span><br> <span>достаточно одной лицензии!</span>
+                      </p>
+                    </div>
+
                     <div class="price_table">
-                      <h3>Покупка</h3>
+                      <h3>Покупка*</h3>
                       <table>
                         <tr>
                           <td>
@@ -210,13 +217,17 @@
                           </td>
                         </tr>
                       </table>
-                    </div> <!-- left_table -->
+                    <p style="text-align:center; color: #814206;">*Обновление версии HopUp бесплатно в течении 1 года</p>
 
-                    <div class="offer">
-                      <p>
-                        <span>Установив</span> один раз <span>серверную часть</span> вы получаете возможность работы с DIRECTUM с любых мобильных устройств на платформах iOS, Android, Windows Phone.<br><span>Лицензия выдается на пользователя, т.е. если у одного пользователя</span> есть iPad <span>и</span> телефон на android, <span>то ему</span><br> <span>достаточно одной лицензии!</span>
-                      </p>
                     </div>
+
+                     <div class="price_table" style="clear:left; margin-top: 20px;">
+                      <h3>Абонемент на новые версии сроком 1 год</h3>
+                      <p style="text-align:center; color: #814206; text-transform:uppercase; font-size:1.2em">20% от текущей стоимости
+                      </p>
+                    </div><!-- left_table -->
+
+                    
 
                     <p class="last-chance">
                       Попробуйте HopUp бесплатно в течение одного месяца!
