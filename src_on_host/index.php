@@ -222,7 +222,7 @@
                     </div>
 
                      <div class="price_table" style="clear:left; margin-top: 20px;">
-                      <h3>Абонемент на новые версии сроком 1 год</h3>
+                      <h3 style="font-size:18px; font-weight:normal" >Обязательный абонемент на новые версии за каждый год начиная со второго.</h3>
                       <p style="text-align:center; color: #814206; text-transform:uppercase; font-size:1.2em">20% от текущей стоимости
                       </p>
                     </div><!-- left_table -->
