@@ -826,3 +826,14 @@ section {
     position: relative;
     top:-5px;
 }
+
+
+.ios8 {
+	background:url('../images/ios8.png') no-repeat left top;
+	display: block;
+	width: 110px;
+	height: 52px;
+	position: absolute;
+	top: 150px;
+	left: -70px;
+}

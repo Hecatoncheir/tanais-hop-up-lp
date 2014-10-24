@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -96,6 +96,7 @@
                     <i class="p_icon i_wp"></i>Windows Phone</a>
                   <a href="https://itunes.apple.com/ru/app/hopup-for-directum/id888388357?mt=8" class="p_apple">
                     <i class="p_icon i_apple"></i>iOS</a>
+                    <div class="ios8"></div>
                 </div>
 
             </section>
@@ -142,7 +143,7 @@
 
                 <div class="downloads">
                     <a href="files/HopUpx_for_DIRECTUM.pdf">Описание HopUp</a>
-                    <a href="files/distributiv_server_chasti_HopUp_s_documentaciey.zip">Скачать дистрибутив серверной части</a>
+                    <a href="files/HopUp.zip">Скачать дистрибутив серверной части</a>
                 </div>
 
                 <div class="store_download">
@@ -166,7 +167,7 @@
                     </div>
 
                     <div class="price_table">
-                      <h3>Покупка*</h3>
+                      <h3>Покупка</h3>
                       <table>
                         <tr>
                           <td>
@@ -217,14 +218,15 @@
                           </td>
                         </tr>
                       </table>
-                    <p style="text-align:center; color: #814206;">*Обновление версии HopUp бесплатно в течении 1 года</p>
+                    
 
                     </div>
 
                      <div class="price_table" style="clear:left; margin-top: 20px;">
-                      <h3 style="font-size:18px; font-weight:normal" >Обязательный абонемент на новые версии за каждый год начиная со второго.</h3>
+                      <h3 style="font-size:18px; font-weight:normal" >Обязательный абонемент на новые версии*</h3>
                       <p style="text-align:center; color: #814206; text-transform:uppercase; font-size:1.2em">20% от текущей стоимости
                       </p>
+                      <p style="text-align:center; color: #814206;">*Техническая поддержка и обновление версий HOPUP предоставляются бесплатно в течении первого года пользования мобильным клиентом</p>
                     </div><!-- left_table -->
 
                     
